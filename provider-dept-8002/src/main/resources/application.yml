@@ -3,19 +3,19 @@ server:
   port: 8002
 
 mybatis:
-  config-location: classpath:mybatis/mybatis-cfg.xml        #mybatisËùÔÚÂ·¾¶
-  type-aliases-package: com.gkts.lymcloud.entities;         #entity±ğÃûÀà
+  config-location: classpath:mybatis/mybatis-cfg.xml        #mybatisæ‰€åœ¨è·¯å¾„
+  type-aliases-package: com.gkts.lymcloud.entities;         #entityåˆ«åç±»
   mapper-locations:
-    - classpath:mybatis/mapper/**/*.xml                       #mapperÓ³ÉäÎÄ¼ş
+    - classpath:mybatis/mapper/**/*.xml                       #mapperæ˜ å°„æ–‡ä»¶
 
 eureka:
-  client: #¿Í»§¶Ë×¢²á½øeureka·şÎñÁĞ±íÄÚ
+  client: #å®¢æˆ·ç«¯æ³¨å†Œè¿›eurekaæœåŠ¡åˆ—è¡¨å†…
     service-url:
-      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/ #eureka¼¯ÈºÖ®ºóµÄÅäÖÃ
-      #defaultZone: http://localhost:7003/eureka   #eureka¼¯ÈºÖ®Ç°µÄµ¥»ú°æÅäÖÃ
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/ #eurekaé›†ç¾¤ä¹‹åçš„é…ç½®
+      #defaultZone: http://localhost:7003/eureka   #eurekaé›†ç¾¤ä¹‹å‰çš„å•æœºç‰ˆé…ç½®
   instance:
-    instance-id: cloud-dept8002  #×Ô¶¨Òå·şÎñÃû³ÆĞÅÏ¢
-    prefer-ip-address: true     #·ÃÎÊÂ·¾¶¿ÉÒÔÏÔÊ¾IPµØÖ·
+    instance-id: cloud-dept8002  #è‡ªå®šä¹‰æœåŠ¡åç§°ä¿¡æ¯
+    prefer-ip-address: true     #è®¿é—®è·¯å¾„å¯ä»¥æ˜¾ç¤ºIPåœ°å€
 
 info:
   app.name: gkts-lymspringcloud
