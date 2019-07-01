@@ -14,4 +14,6 @@
     - [x] [服务注册端7001：eureka_7001](https://github.com/nocence/lymcloud/tree/master/eureka_7001)
     - [x] [部门服务提供者8001：provider-dept-8001](https://github.com/nocence/lymcloud/tree/master/provider-dept-8001)
     - [x] [部门服务消费者80：consumer_dept_80](https://github.com/nocence/lymcloud/tree/master/consumer_dept_80)
+    - [x] 添加[eureka_7002](https://github.com/nocence/lymcloud/tree/master/eureka_7002)，[eureka_7003](https://github.com/nocence/lymcloud/tree/master/eureka_7003)实现eureka集群配置
+    - [x] 添加[provider-dept-8002](https://github.com/nocence/lymcloud/tree/master/provider-dept-8002),[provider-dept-8003](https://github.com/nocence/lymcloud/tree/master/provider-dept-8003)测试Ribbon负载均衡
     
