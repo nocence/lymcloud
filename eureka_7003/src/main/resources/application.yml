@@ -3,16 +3,16 @@ server:
 
 eureka:
   instance:
-    hostname: localhost #eureka·şÎñ¶ËµÄÊµÀıÃû³Æ
+    #hostname: localhost #eurekaæœåŠ¡ç«¯çš„å®ä¾‹åç§°
+    hostname: eureka7003.com #eurekaæœåŠ¡ç«¯çš„å®ä¾‹åç§°
   client:
-    register-with-eureka: false   #false±íÊ¾²»Ïò×¢²áÖĞĞÄ×¢²á×Ô¼º¡£
-    fetch-registry: false         #false±íÊ¾×Ô¼º¶Ë¾ÍÊÇ×¢²áÖĞĞÄ£¬ÎÒµÄÖ°Ôğ¾ÍÊÇÎ¬»¤·şÎñÊµÀı£¬²¢²»ĞèÒªÈ¥¼ìË÷·şÎñ
-  service-url:
-    defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/        #µ¥»ú°æÅäÖÃÉèÖÃÓëEureka Server½»»¥µÄµØÖ·²éÑ¯·şÎñ
-    #ºÍ×¢²á·şÎñ¶¼ĞèÒªÒÀÀµÕâ¸öµØÖ·¡£
+    register-with-eureka: false   #falseè¡¨ç¤ºä¸å‘æ³¨å†Œä¸­å¿ƒæ³¨å†Œè‡ªå·±ã€‚
+    fetch-registry: false         #falseè¡¨ç¤ºè‡ªå·±ç«¯å°±æ˜¯æ³¨å†Œä¸­å¿ƒï¼Œæˆ‘çš„èŒè´£å°±æ˜¯ç»´æŠ¤æœåŠ¡å®ä¾‹ï¼Œå¹¶ä¸éœ€è¦å»æ£€ç´¢æœåŠ¡
+    service-url:
+    #defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/        #å•æœºç‰ˆé…ç½®è®¾ç½®ä¸Eureka Serveräº¤äº’çš„åœ°å€æŸ¥è¯¢æœåŠ¡
+    #å’Œæ³¨å†ŒæœåŠ¡éƒ½éœ€è¦ä¾èµ–è¿™ä¸ªåœ°å€ã€‚
 
-    #defaultZone: http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/        #¼¯ÈºÅäÖÃ£¬ÔÚ´ËÖ®Ç°ÒªĞŞ¸ÄC:\Windows\System32\drivers\etcÂ·¾¶ÏÂµÄhostsÎÄ¼ş
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/        #é›†ç¾¤é…ç½®ï¼Œåœ¨æ­¤ä¹‹å‰è¦ä¿®æ”¹C:\Windows\System32\drivers\etcè·¯å¾„ä¸‹çš„hostsæ–‡ä»¶
     #127.0.0.1  eureka7001.com
     #127.0.0.1  eureka7002.com
     #127.0.0.1  eureka7003.com
-
