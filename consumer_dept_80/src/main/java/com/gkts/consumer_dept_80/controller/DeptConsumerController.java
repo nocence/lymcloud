@@ -11,10 +11,10 @@ import java.util.List;
 
 @RestController
 public class DeptConsumerController {
-    private static final String REST_URL_PREFIX = "http://localhost:8001";
-
+//    private static final String REST_URL_PREFIX = "http://localhost:8001";
+    private static final String REST_URL_PREFIX = "http://PROVIDER-DEPT";
     @Autowired
-    private RestTemplate restTemplate;
+    RestTemplate restTemplate;
 
     @RequestMapping(value="/consumer/dept/get/{id}")
     public Dept get(@PathVariable("id") Integer id) {
