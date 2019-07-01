@@ -10,6 +10,8 @@
         <module name="eureka_7002" />
         <module name="eureka_7001" />
         <module name="publicapi" />
+        <module name="provider-dept-8003" />
+        <module name="provider-dept-8002" />
         <module name="provider-dept-8001" />
         <module name="consumer_dept_80" />
       </profile>
@@ -23,6 +25,8 @@
       <module name="eureka_7002" options="-parameters" />
       <module name="eureka_7003" options="-parameters" />
       <module name="provider-dept-8001" options="-parameters" />
+      <module name="provider-dept-8002" options="-parameters" />
+      <module name="provider-dept-8003" options="-parameters" />
     </option>
   </component>
 </project>
