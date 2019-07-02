@@ -14,12 +14,18 @@
         <module name="provider-dept-8002" />
         <module name="provider-dept-8001" />
         <module name="consumer_dept_80" />
+        <module name="consumer_dept_feign" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="consumer-dept-feign" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="consumer-dept-feign" options="-parameters" />
       <module name="consumer_dept_80" options="-parameters" />
+      <module name="consumer_dept_feign" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="eureka_7001" options="-parameters" />
       <module name="eureka_7002" options="-parameters" />
