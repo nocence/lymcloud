@@ -1,2 +1,4 @@
 com\gkts\lymcloud\entities\Dept.class
 com\gkts\lymcloud\service\DeptClientService.class
+com\gkts\lymcloud\serviceImpl\DeptClientServiceFallbackFactory.class
+com\gkts\lymcloud\serviceImpl\DeptClientServiceFallbackFactory$1.class

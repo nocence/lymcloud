@@ -1,0 +1,53 @@
+server:
+  port: 8001
+
+mybatis:
+  config-location: classpath:mybatis/mybatis-cfg.xml        #mybatis\u6240\u5728\u8DEF\u5F84
+  type-aliases-package: com.gkts.lymcloud.entities;         #entity\u522B\u540D\u7C7B
+  mapper-locations:
+    - classpath:mybatis/mapper/**/*.xml                       #mapper\u6620\u5C04\u6587\u4EF6
+
+eureka:
+  client: #\u5BA2\u6237\u7AEF\u6CE8\u518C\u8FDBeureka\u670D\u52A1\u5217\u8868\u5185
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/ #eureka\u96C6\u7FA4\u4E4B\u540E\u7684\u914D\u7F6E
+  instance:
+    instance-id: cloud-dept8001-hystrix  #\u81EA\u5B9A\u4E49\u670D\u52A1\u540D\u79F0\u4FE1\u606F
+    prefer-ip-address: true     #\u8BBF\u95EE\u8DEF\u5F84\u53EF\u4EE5\u663E\u793AIP\u5730\u5740
+
+info:
+  app.name: gkts-lymspringcloud
+  company.name: www.gkts.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
+
+
+spring:
+  application:
+    name: provider-dept
+
+  datasource:
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/clouddb01?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&serverTimezone=UTC
+    type: com.alibaba.druid.pool.DruidDataSource
+    initialSize: 5
+    minIdle: 5
+
+    maxActive: 20
+    maxWait: 60000
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: SELECT 1 FROM DUAL
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+
+
+    filters: stat,wall,log4j
+    maxPoolPreparedStatementPerConnectionSize: 20
+    useGlobalDataSourceStat: true
+    connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
+
