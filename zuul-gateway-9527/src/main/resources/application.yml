@@ -1,0 +1,29 @@
+
+server:
+  port: 9527
+
+spring:
+  application:
+    name: microservicecloud-zuul-gateway
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka
+  instance:
+    instance-id: gateway-9527.com
+    prefer-ip-address: true
+
+zuul:
+  prefix: /lymcloud #\u524D\u7F00\uFF0C\u53EF\u4EE5\u5FFD\u7565
+  ignored-services: provider-dept #\u5355\u4E2A\u5199\u660E\uFF0C\u591A\u4E2A\u7528"*"\u4EE3\u66FF
+  routes:
+    mydept.serviceId: provider-dept
+    mydept.path: /mydept/**
+
+
+info:
+  app.name: gkts-lymspringcloud
+  company.name: www.gkts.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$

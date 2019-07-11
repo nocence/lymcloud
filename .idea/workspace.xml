@@ -2,25 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39bbda54-524c-476e-802f-af6bdc9a09b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/consumer-hystrix-dashboard/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-hystrix-dashboard/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-hystrix-dashboard/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-hystrix-dashboard/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-hystrix-dashboard/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-hystrix-dashboard/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-hystrix-dashboard/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-hystrix-dashboard/src/main/java/com/gkts/consumer_hystrix_dashboard/ConsumerHystrixDashboardApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-hystrix-dashboard/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-hystrix-dashboard/src/test/java/com/gkts/consumer_hystrix_dashboard/ConsumerHystrixDashboardApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-dept-8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider-dept-8001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-dept-8002/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider-dept-8002/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-dept-8003/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider-dept-8003/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-dept-hystrix-8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider-dept-hystrix-8001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-dept-hystrix-8001/src/main/java/com/gkts/provider_dept_hystrix_8001/ProviderDeptHystrix8001Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-dept-hystrix-8001/src/main/java/com/gkts/provider_dept_hystrix_8001/ProviderDeptHystrix8001Application.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,6 +23,7 @@
     <ignored path="$PROJECT_DIR$/consumer_dept_feign/target/" />
     <ignored path="$PROJECT_DIR$/provider-dept-hystrix-8001/target/" />
     <ignored path="$PROJECT_DIR$/consumer-hystrix-dashboard/target/" />
+    <ignored path="$PROJECT_DIR$/zuul-gateway-9527/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,76 +49,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/provider-dept-hystrix-8001/src/main/java/com/gkts/provider_dept_hystrix_8001/ProviderDeptHystrix8001Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#488#489#0" expanded="true" />
-                <element signature="e#573#574#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/provider-dept-hystrix-8001/src/main/java/com/gkts/provider_dept_hystrix_8001/service/DeptService.java">
+        <entry file="file://$PROJECT_DIR$/eureka_7001/src/main/java/com/gkts/eureka_7001/Eureka7001Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/provider-dept-hystrix-8001/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="55" column="55" selection-start-line="55" selection-start-column="55" selection-end-line="55" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/consumer-hystrix-dashboard/src/main/java/com/gkts/consumer_hystrix_dashboard/ConsumerHystrixDashboardApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="82">
               <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#351#352#0" expanded="true" />
+                <element signature="e#423#424#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/provider-dept-8001/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="55" column="57" selection-start-line="55" selection-start-column="57" selection-end-line="55" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/provider-dept-8002/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/provider-dept-8003/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="56" column="34" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -140,7 +65,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eureka_7002/src/main/java/com/gkts/eureka_7002/Eureka7002Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="82">
               <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
@@ -149,17 +74,74 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eureka_7003/src/main/java/com/gkts/eureka_7003/Eureka7003Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="90">
               <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/consumer-hystrix-dashboard/pom.xml">
+        <entry file="file://$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="60" column="20" lean-forward="true" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+            <state relative-caret-position="125">
+              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/zuul-gateway-9527/src/main/java/com/gkts/zuul_gateway_9527/ZuulGateway9527Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="82">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/provider-dept-8001/src/main/java/com/gkts/provider_dept_8001/ProviderDept8001Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/provider-dept-8001/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zuul-gateway-9527/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zuul-gateway-9527/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="775">
+              <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/provider-dept-hystrix-8001/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="17" selection-start-line="17" selection-end-line="21" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -184,6 +166,7 @@
       <find>8001</find>
       <find>RunDashboard</find>
       <find>actuator</find>
+      <find>9527</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -192,10 +175,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/provider-dept-8002/src/main/java/com/lymcloud/providerdept8002/controller/DeptController.java" />
-        <option value="$PROJECT_DIR$/provider-dept-8003/src/main/java/com/lymcloud/providerdept8003/service/DeptService.java" />
-        <option value="$PROJECT_DIR$/provider-dept-8003/src/main/java/com/lymcloud/providerdept8003/ProviderDept8003Application.java" />
-        <option value="$PROJECT_DIR$/provider-dept-8003/src/main/java/com/lymcloud/providerdept8003/controller/DeptController.java" />
         <option value="$PROJECT_DIR$/provider-dept-8003/src/main/java/com/lymcloud/providerdept8003/serviceImple/DeptServiceImpl.java" />
         <option value="$PROJECT_DIR$/provider-dept-8001/src/main/resources/mybatis/mapper/DeptMapper.xml" />
         <option value="$PROJECT_DIR$/provider-dept-8002/src/main/java/com/gkts/provider_dept_8002/controller/DeptController.java" />
@@ -217,7 +196,6 @@
         <option value="$PROJECT_DIR$/consumer_dept_80/src/main/java/com/gkts/consumer_dept_80/controller/DeptConsumerController.java" />
         <option value="$PROJECT_DIR$/consumer-dept-feign/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/consumer-dept-feign/src/main/java/com/gkts/consumerdept_feign/controller/DeptController.java" />
-        <option value="$PROJECT_DIR$/public-api/pom.xml" />
         <option value="$PROJECT_DIR$/consumer-dept-feign/pom.xml" />
         <option value="$PROJECT_DIR$/consumer-dept-feign/src/main/java/com/gkts/consumerdept_feign/ConsumerDeptFeignApplication.java" />
         <option value="$PROJECT_DIR$/consumer_dept_feign/pom.xml" />
@@ -243,6 +221,11 @@
         <option value="$PROJECT_DIR$/provider-dept-hystrix-8001/pom.xml" />
         <option value="$PROJECT_DIR$/consumer-hystrix-dashboard/pom.xml" />
         <option value="$PROJECT_DIR$/provider-dept-hystrix-8001/src/main/java/com/gkts/provider_dept_hystrix_8001/ProviderDeptHystrix8001Application.java" />
+        <option value="$PROJECT_DIR$/public-api/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul-gateway-9527/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul-gateway-9527/src/main/java/com/gkts/zuul_gateway_9527/ZuulGateway9527Application.java" />
+        <option value="$PROJECT_DIR$/zuul-gateway-9527/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/zuul-gateway-9527/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -255,7 +238,17 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="zuul-gateway-9527" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="zuul-gateway-9527" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -284,31 +277,25 @@
             <path>
               <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="provider-dept-8001" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name=".mvn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="provider-dept-8001" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="provider-dept-8001" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="provider-dept-8001" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -316,11 +303,19 @@
             <path>
               <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="provider-dept-8001" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer_hystrix_dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="provider_dept_8001" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="provider-dept-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
@@ -344,6 +339,32 @@
               <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
               <item name="provider-dept-hystrix-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-gateway-9527" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-gateway-9527" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-gateway-9527" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-gateway-9527" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -351,21 +372,19 @@
             <path>
               <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="provider-dept-hystrix-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-gateway-9527" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="provider_dept_hystrix_8001" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul_gateway_9527" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="provider-dept-hystrix-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-gateway-9527" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="provider_dept_hystrix_8001" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -433,195 +452,32 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.16341992" />
+    <option name="contentProportion" value="0.24512987" />
   </component>
-  <component name="RunManager" selected="Spring Boot.ProviderDeptHystrix8001Application">
-    <configuration name="All in eureka_7001 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="eureka_7001" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in eureka_7001" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="eureka_7001" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="eureka_7002" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="eureka_7002" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConsumerDept80Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="consumer_dept_80" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gkts.consumer_dept_80.ConsumerDept80Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConsumerDeptFeignApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="consumer_dept_feign" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gkts.consumer_dept_feign.ConsumerDeptFeignApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConsumerDeptFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="consumer-dept-feign" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gkts.consumerdept_feign.ConsumerDeptFeignApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConsumerHystrixDashboardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="consumer-hystrix-dashboard" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gkts.consumer_hystrix_dashboard.ConsumerHystrixDashboardApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="demo" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Eureka7001Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="eureka_7001" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gkts.eureka_7001.Eureka7001Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Eureka7002Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="eureka-7002" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gkts.eureka7002.Eureka7002Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Eureka7002Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="eureka_7002" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gkts.eureka_7002.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gkts.eureka_7002.Eureka7002Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Eureka7003Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="eureka_7003" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gkts.eureka_7003.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gkts.eureka_7003.Eureka7003Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProviderDept8001Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+  <component name="RunManager" selected="Spring Boot.ProviderDept8001Application">
+    <configuration name="ProviderDept8001Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="provider-dept-8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gkts.provider_dept_8001.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.gkts.provider_dept_8001.ProviderDept8001Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProviderDept8002Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="provider-dept-8002" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gkts.provider_dept_8002.ProviderDept8002Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProviderDept8002Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="provider-dept-8002" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lymcloud.providerdept8002.ProviderDept8002Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProviderDept8003Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="provider-dept-8003" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gkts.provider_dept_8003.ProviderDept8003Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProviderDept8003Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="provider-dept-8003" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lymcloud.providerdept8003.ProviderDept8003Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProviderDeptHystrix8001Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="provider-dept-hystrix-8001" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gkts.provider_dept_hystrix_8001.ProviderDeptHystrix8001Application" />
+    <configuration name="ZuulGateway9527Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zuul-gateway-9527" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gkts.zuul_gateway_9527.ZuulGateway9527Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.Eureka7003Application" />
-        <item itemvalue="Spring Boot.Eureka7002Application" />
-        <item itemvalue="JUnit.All in eureka_7001 (1)" />
-        <item itemvalue="JUnit.All in eureka_7001" />
+        <item itemvalue="Spring Boot.ProviderDept8001Application" />
       </list>
     </recent_temporary>
   </component>
@@ -644,7 +500,7 @@
       <workItem from="1561942528875" duration="35969000" />
       <workItem from="1562057469009" duration="7698000" />
       <workItem from="1562551395493" duration="595000" />
-      <workItem from="1562554260464" duration="7688000" />
+      <workItem from="1562554260464" duration="17753000" />
     </task>
     <task id="LOCAL-00001" summary="初始提交">
       <created>1561705182853</created>
@@ -730,7 +586,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562062652786</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="实现服务监控hystrixDashboard">
+      <created>1562753416744</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1562753416744</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -742,13 +605,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79546000" />
+    <option name="totallyTimeSpent" value="89611000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19829424" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19829424" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -770,8 +633,8 @@
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32936078" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.67713976" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="14" visible="true" weight="0.67713976" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -798,91 +661,10 @@
     <MESSAGE value="修改readme目录" />
     <MESSAGE value="实现feign负载均衡" />
     <MESSAGE value="实现hystrix服务熔断，feign+hystrix实现服务降级" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现hystrix服务熔断，feign+hystrix实现服务降级" />
+    <MESSAGE value="实现服务监控hystrixDashboard" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现服务监控hystrixDashboard" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/eureka_7001/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider-dept-8003/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer_dept_80/src/main/java/com/gkts/myRule/RandomRuleDiy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2379#2380#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer_dept_80/src/main/java/com/gkts/myRule/MySelfRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer-dept-feign/src/main/java/com/gkts/consumer_dept_feign/ConsumerDeptFeignApplication.java" />
-    <entry file="file://$PROJECT_DIR$/provider-dept-8001/src/main/java/com/gkts/provider_dept_8001/mapper/DeptMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider-dept-8001/src/main/java/com/gkts/provider_dept_8001/service/DeptService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/5.1.8.RELEASE/spring-web-5.1.8.RELEASE-sources.jar!/org/springframework/web/client/RestTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="92" column="13" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer_dept_80/src/main/java/com/gkts/consumer_dept_80/controller/DeptConsumerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer_dept_80/src/main/java/com/gkts/consumer_dept_80/configBeans/ConfigBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE-sources.jar!/org/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="595" column="26" selection-start-line="595" selection-start-column="26" selection-end-line="595" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer-dept-feign/src/main/resources/application.yml" />
     <entry file="file://$PROJECT_DIR$/consumer-dept-feign/src/main/java/com/gkts/consumerdept_feign/controller/DeptController.java" />
     <entry file="file://$PROJECT_DIR$/consumer-dept-feign/pom.xml" />
     <entry file="file://$PROJECT_DIR$/consumer-dept-feign/src/main/java/com/gkts/consumerdept_feign/ConsumerDeptFeignApplication.java" />
@@ -893,9 +675,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -903,23 +682,6 @@
             <caret line="18" column="109" lean-forward="true" selection-start-line="18" selection-start-column="109" selection-end-line="18" selection-end-column="109" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="20" column="67" lean-forward="true" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider-dept-8001/src/main/java/com/gkts/provider_dept_8001/ProviderDept8001Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -950,13 +712,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/provider-dept-hystrix-8001/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Test.mmd" />
     <entry file="file://$PROJECT_DIR$/consumer_dept_80/src/main/java/com/gkts/consumer_dept_80/ConsumerDept80Application.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -970,8 +725,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="755">
-          <caret line="317" column="13" selection-start-line="317" selection-start-column="13" selection-end-line="317" selection-end-column="13" />
+        <state relative-caret-position="277">
+          <caret line="1036" column="39" selection-start-line="1036" selection-start-column="39" selection-end-line="1036" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -980,16 +735,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider-dept-hystrix-8001/src/main/java/com/gkts/provider_dept_hystrix_8001/controller/DeptController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1004,13 +749,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider-dept-8001/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
@@ -1048,13 +786,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consumer-hystrix-dashboard/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public-api/src/main/java/com/gkts/lymcloud/serviceImpl/DeptClientServiceFallbackFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
@@ -1072,31 +803,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka_7001/src/main/java/com/gkts/eureka_7001/Eureka7001Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka_7002/src/main/java/com/gkts/eureka_7002/Eureka7002Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka_7003/src/main/java/com/gkts/eureka_7003/Eureka7003Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/provider-dept-8001/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -1111,30 +817,187 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/provider-dept-8003/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="56" column="34" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider-dept-hystrix-8001/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="55" column="55" selection-start-line="55" selection-start-column="55" selection-end-line="55" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/consumer-hystrix-dashboard/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
-          <caret line="60" column="20" lean-forward="true" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+          <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-dept-hystrix-8001/src/main/java/com/gkts/provider_dept_hystrix_8001/service/DeptService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-hystrix-dashboard/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/consumer-hystrix-dashboard/src/main/java/com/gkts/consumer_hystrix_dashboard/ConsumerHystrixDashboardApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="325">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-dept-hystrix-8001/src/main/java/com/gkts/provider_dept_hystrix_8001/controller/DeptController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-dept-8003/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-527">
+          <caret line="44" column="67" selection-start-line="44" selection-start-column="67" selection-end-line="44" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-dept-8003/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" selection-start-line="10" selection-end-line="17" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-dept-8003/src/main/java/com/gkts/provider_dept_8003/ProviderDept8003Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-dept-hystrix-8001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1850">
+          <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-750" />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-actuator-autoconfigure/2.1.6.RELEASE/spring-boot-actuator-autoconfigure-2.1.6.RELEASE-sources.jar!/org/springframework/boot/actuate/autoconfigure/endpoint/web/ServletEndpointManagementContextConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="67" column="40" selection-start-line="67" selection-start-column="40" selection-end-line="67" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-dept-hystrix-8001/src/main/java/com/gkts/provider_dept_hystrix_8001/ProviderDeptHystrix8001Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="24" column="62" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-dept-hystrix-8001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" selection-start-line="17" selection-end-line="21" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-gateway-9527/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka_7001/src/main/java/com/gkts/eureka_7001/Eureka7001Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka_7002/src/main/java/com/gkts/eureka_7002/Eureka7002Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka_7003/src/main/java/com/gkts/eureka_7003/Eureka7003Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-dept-8001/src/main/java/com/gkts/provider_dept_8001/ProviderDept8001Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1142,25 +1005,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/provider-dept-hystrix-8001/src/main/java/com/gkts/provider_dept_hystrix_8001/service/DeptService.java">
+    <entry file="file://$PROJECT_DIR$/provider-dept-8001/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="475">
+          <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/provider-dept-hystrix-8001/src/main/java/com/gkts/provider_dept_hystrix_8001/ProviderDeptHystrix8001Application.java">
+    <entry file="file://$PROJECT_DIR$/zuul-gateway-9527/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-gateway-9527/src/main/java/com/gkts/zuul_gateway_9527/ZuulGateway9527Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
