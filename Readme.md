@@ -1,7 +1,7 @@
 # ReadMe
 #### 基于idea搭建的springcloud微服务基本架构
 ### 版本：
-#### springboot：2.0.1
+#### springboot：2.1.6.RELEASE
 #### springcloud：Greenwich.SR1
 ### 开发环境：
 #### IDE：IntelliJ 2019.1
@@ -9,11 +9,5 @@
 #### 数据库：MySQL
 #### 数据库示例脚本：[cloudtest](https://github.com/nocence/lymcloud/blob/master/cloudtest.sql)
 ### 搭建进度
-- [x] 已完成
-    - [x] 公共API部分：[public-api](https://github.com/nocence/lymcloud/tree/master/public-api)
-    - [x] 服务注册端7001：[eureka_7001](https://github.com/nocence/lymcloud/tree/master/eureka_7001)
-    - [x] 部门服务提供者8001：[provider-dept-8001](https://github.com/nocence/lymcloud/tree/master/provider-dept-8001)
-    - [x] 部门服务消费者80：[consumer_dept_80](https://github.com/nocence/lymcloud/tree/master/consumer_dept_80)
-    - [x] 添加[eureka_7002](https://github.com/nocence/lymcloud/tree/master/eureka_7002)，[eureka_7003](https://github.com/nocence/lymcloud/tree/master/eureka_7003)实现eureka集群配置
-    - [x] 添加[provider-dept-8002](https://github.com/nocence/lymcloud/tree/master/provider-dept-8002),[provider-dept-8003](https://github.com/nocence/lymcloud/tree/master/provider-dept-8003)测试Ribbon负载均衡
-    - [x] feign负载均衡[consumer_dept_feign](https://github.com/nocence/lymcloud/tree/master/consumer_dept_feign)
+- [x] 已全部完成
+    

@@ -2,32 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39bbda54-524c-476e-802f-af6bdc9a09b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config-dept-client-8001/src/main/java/com/gkts/config_dept_client_8001/controller/DeptController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-dept-client-8001/src/main/java/com/gkts/config_dept_client_8001/mapper/DeptMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-dept-client-8001/src/main/java/com/gkts/config_dept_client_8001/service/DeptService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-dept-client-8001/src/main/java/com/gkts/config_dept_client_8001/serviceImple/DeptServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-dept-client-8001/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-dept-client-8001/src/main/resources/mybatis/mapper/DeptMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-dept-client-8001/src/main/resources/mybatis/mybatis-cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-eureka-client-7001/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-eureka-client-7001/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-eureka-client-7001/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-eureka-client-7001/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-eureka-client-7001/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-eureka-client-7001/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-eureka-client-7001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-eureka-client-7001/src/main/java/com/gkts/config_eureka_client_7001/ConfigEurekaClient7001Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-eureka-client-7001/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-eureka-client-7001/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-eureka-client-7001/src/test/java/com/gkts/config_eureka_client_7001/ConfigEurekaClient7001ApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-config/src/main/java/com/gkts/cloud_config/CloudConfigApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config/src/main/java/com/gkts/cloud_config/CloudConfigApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-config/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-dept-8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider-dept-8001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -76,15 +52,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/provider-dept-8001/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config-dept-client-8001/src/main/java/com/gkts/config_dept_client_8001/ConfigDeptClient8001Application.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="125">
@@ -97,7 +64,19 @@
         <entry file="file://$PROJECT_DIR$/config-dept-client-8001/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
-              <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+              <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="300">
+                <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -215,7 +194,6 @@
         <option value="$PROJECT_DIR$/consumer-dept-feign/src/main/java/com/gkts/consumerdept_feign/ConsumerDeptFeignApplication.java" />
         <option value="$PROJECT_DIR$/consumer_dept_feign/pom.xml" />
         <option value="$PROJECT_DIR$/consumer_dept_feign/src/main/java/com/gkts/consumer_dept_feign/controller/DeptConsumerController.java" />
-        <option value="$PROJECT_DIR$/Readme.md" />
         <option value="$PROJECT_DIR$/provider-dept-hystrix-8001/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/provider-dept-hystrix-8001/src/main/java/com/gkts/provider_dept_hystrix_8001/serviceImple/DeptServiceImpl.java" />
         <option value="$PROJECT_DIR$/provider-dept-hystrix-8001/src/main/resources/mybatis/mapper/DeptMapper.xml" />
@@ -254,11 +232,12 @@
         <option value="$PROJECT_DIR$/config-eureka-client-7001/src/main/java/com/gkts/config_eureka_client_7001/ConfigEurekaClient7001Application.java" />
         <option value="$PROJECT_DIR$/config-dept-client-8001/pom.xml" />
         <option value="$PROJECT_DIR$/config-dept-client-8001/src/main/java/com/gkts/config_dept_client_8001/ConfigDeptClient8001Application.java" />
-        <option value="$PROJECT_DIR$/config-dept-client-8001/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/config-dept-client-8001/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/config-dept-client-8001/src/main/java/com/gkts/config_dept_client_8001/controller/DeptController.java" />
         <option value="$PROJECT_DIR$/config-dept-client-8001/src/main/java/com/gkts/config_dept_client_8001/serviceImple/DeptServiceImpl.java" />
         <option value="$PROJECT_DIR$/config-dept-client-8001/src/main/resources/mybatis/mapper/DeptMapper.xml" />
+        <option value="$PROJECT_DIR$/config-dept-client-8001/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/Readme.md" />
       </list>
     </option>
   </component>
@@ -315,151 +294,6 @@
             <path>
               <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="config-dept-client-8001" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="config-dept-client-8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="config-dept-client-8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="config-dept-client-8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="config-dept-client-8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="config_dept_client_8001" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="config-dept-client-8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="config_dept_client_8001" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="config-dept-client-8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="config_dept_client_8001" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="config-dept-client-8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="config_dept_client_8001" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="config-dept-client-8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="config_dept_client_8001" type="462c0819:PsiDirectoryNode" />
-              <item name="serviceImple" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="config-dept-client-8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="config-dept-client-8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="config-dept-client-8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="provider-dept-8001" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="provider-dept-8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="provider-dept-8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="provider-dept-8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="provider-dept-8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="provider_dept_8001" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="provider-dept-8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -604,7 +438,7 @@
       <workItem from="1562057469009" duration="7698000" />
       <workItem from="1562551395493" duration="595000" />
       <workItem from="1562554260464" duration="24772000" />
-      <workItem from="1562892928621" duration="7660000" />
+      <workItem from="1562892928621" duration="8167000" />
     </task>
     <task id="LOCAL-00001" summary="初始提交">
       <created>1561705182853</created>
@@ -718,7 +552,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562835948350</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="新增springcloud-config的C/S端，新增config版的eureka和dept，测试通过">
+      <created>1562915554952</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1562915554952</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -730,13 +571,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104290000" />
+    <option name="totallyTimeSpent" value="104797000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17324094" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17324094" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -758,7 +599,7 @@
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32936078" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="14" visible="true" weight="0.67713976" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" visible="true" weight="0.40520042" />
       <window_info anchor="bottom" id="Version Control" order="15" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -790,16 +631,10 @@
     <MESSAGE value="实现路由网关zuul" />
     <MESSAGE value="实现分布式配置中心的客户端和服务端，测试通过" />
     <MESSAGE value="添加本机路径下的hosts文件修改内容" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加本机路径下的hosts文件修改内容" />
+    <MESSAGE value="新增springcloud-config的C/S端，新增config版的eureka和dept，测试通过" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增springcloud-config的C/S端，新增config版的eureka和dept，测试通过" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/provider-dept-8003/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-527">
-          <caret line="44" column="67" selection-start-line="44" selection-start-column="67" selection-end-line="44" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/provider-dept-8003/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -1148,17 +983,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config-dept-client-8001/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config-dept-client-8001/src/main/java/com/gkts/config_dept_client_8001/ConfigDeptClient8001Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-dept-client-8001/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="300">
+            <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
