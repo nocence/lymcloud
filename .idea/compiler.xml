@@ -7,7 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="zuul-gateway-9527" />
-        <module name="provider-dept-hystrix-8001" />
+        <module name="consumer_dept_feign" />
         <module name="eureka_7003" />
         <module name="eureka_7002" />
         <module name="eureka_7001" />
@@ -17,9 +17,11 @@
         <module name="cloud-config" />
         <module name="consumer_dept_80" />
         <module name="publicapi" />
+        <module name="config-dept-client-8001" />
         <module name="consumer-hystrix-dashboard" />
         <module name="cloud-config-client" />
-        <module name="consumer_dept_feign" />
+        <module name="provider-dept-hystrix-8001" />
+        <module name="config-eureka-client-7001" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -30,6 +32,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="cloud-config" options="-parameters" />
       <module name="cloud-config-client" options="-parameters" />
+      <module name="config-dept-client-8001" options="-parameters" />
+      <module name="config-eureka-client-7001" options="-parameters" />
       <module name="consumer-dept-feign" options="-parameters" />
       <module name="consumer-hystrix-dashboard" options="-parameters" />
       <module name="consumer_dept_80" options="-parameters" />

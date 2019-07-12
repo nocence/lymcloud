@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39bbda54-524c-476e-802f-af6bdc9a09b3" name="Default Changelist" comment="实现路由网关zuul">
-      <change afterPath="$PROJECT_DIR$/cloud-config-client/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-client/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-client/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-client/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-client/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-client/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-client/src/main/java/com/gkts/cloud_config_client/CloudConfigClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-client/src/main/java/com/gkts/cloud_config_client/controller/ConfigClintContrller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-client/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-client/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-client/src/test/java/com/gkts/cloud_config_client/CloudConfigClientApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config/src/main/java/com/gkts/cloud_config/CloudConfigApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config/src/test/java/com/gkts/cloud_config/CloudConfigApplicationTests.java" afterDir="false" />
+    <list default="true" id="39bbda54-524c-476e-802f-af6bdc9a09b3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/config-dept-client-8001/src/main/java/com/gkts/config_dept_client_8001/controller/DeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-dept-client-8001/src/main/java/com/gkts/config_dept_client_8001/mapper/DeptMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-dept-client-8001/src/main/java/com/gkts/config_dept_client_8001/service/DeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-dept-client-8001/src/main/java/com/gkts/config_dept_client_8001/serviceImple/DeptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-dept-client-8001/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-dept-client-8001/src/main/resources/mybatis/mapper/DeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-dept-client-8001/src/main/resources/mybatis/mybatis-cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-eureka-client-7001/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-eureka-client-7001/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-eureka-client-7001/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-eureka-client-7001/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-eureka-client-7001/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-eureka-client-7001/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-eureka-client-7001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-eureka-client-7001/src/main/java/com/gkts/config_eureka_client_7001/ConfigEurekaClient7001Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-eureka-client-7001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-eureka-client-7001/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-eureka-client-7001/src/test/java/com/gkts/config_eureka_client_7001/ConfigEurekaClient7001ApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config/src/main/java/com/gkts/cloud_config/CloudConfigApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config/src/main/java/com/gkts/cloud_config/CloudConfigApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-dept-8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider-dept-8001/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,6 +48,8 @@
     <ignored path="$PROJECT_DIR$/zuul-gateway-9527/target/" />
     <ignored path="$PROJECT_DIR$/cloud-config/target/" />
     <ignored path="$PROJECT_DIR$/cloud-config-client/target/" />
+    <ignored path="$PROJECT_DIR$/config-eureka-client-7001/target/" />
+    <ignored path="$PROJECT_DIR$/config-dept-client-8001/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,37 +76,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-config/src/main/java/com/gkts/cloud_config/CloudConfigApplication.java">
+        <entry file="file://$PROJECT_DIR$/provider-dept-8001/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-config/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+            <state relative-caret-position="125">
+              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cloud-config-client/src/main/resources/bootstrap.yml">
+        <entry file="file://$PROJECT_DIR$/config-dept-client-8001/src/main/java/com/gkts/config_dept_client_8001/ConfigDeptClient8001Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+            <state relative-caret-position="125">
+              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-config-client/src/main/java/com/gkts/cloud_config_client/controller/ConfigClintContrller.java">
+        <entry file="file://$PROJECT_DIR$/config-dept-client-8001/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+            <state relative-caret-position="200">
+              <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config-dept-client-8001/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/provider-dept-8001/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config-dept-client-8001/src/main/java/com/gkts/config_dept_client_8001/service/DeptService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,51 +133,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/provider-dept-8002/src/main/java/com/gkts/provider_dept_8002/controller/DeptController.java">
+        <entry file="file://$PROJECT_DIR$/config-dept-client-8001/src/main/java/com/gkts/config_dept_client_8001/mapper/DeptMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="275">
+              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-config-client/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/config-dept-client-8001/src/main/resources/mybatis/mapper/DeptMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+            <state relative-caret-position="75">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka_7001/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-config-client/src/main/java/com/gkts/cloud_config_client/CloudConfigClientApplication.java">
+        <entry file="file://$PROJECT_DIR$/config-dept-client-8001/src/main/java/com/gkts/config_dept_client_8001/serviceImple/DeptServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="425">
+              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.m2/repository/com/sun/jersey/contribs/jersey-apache-client4/1.19.1/jersey-apache-client4-1.19.1-sources.jar!/com/sun/jersey/client/apache4/ApacheHttpClient4Handler.java">
+        <entry file="file://$PROJECT_DIR$/config-dept-client-8001/src/main/java/com/gkts/config_dept_client_8001/controller/DeptController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="186" column="18" selection-start-line="186" selection-start-column="18" selection-end-line="186" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-config/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+            <state relative-caret-position="325">
+              <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -193,17 +208,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/provider-dept-8003/src/main/java/com/gkts/provider_dept_8003/controller/DeptController.java" />
-        <option value="$PROJECT_DIR$/provider-dept-8003/src/main/java/com/gkts/provider_dept_8003/serviceImple/DeptServiceImpl.java" />
-        <option value="$PROJECT_DIR$/provider-dept-8002/src/main/java/com/gkts/provider_dept_8002/ProviderDept8002Application.java" />
-        <option value="$PROJECT_DIR$/provider-dept-8003/src/main/java/com/gkts/provider_dept_8003/ProviderDept8003Application.java" />
-        <option value="$PROJECT_DIR$/provider-dept-8003/src/main/resources/mybatis/mapper/DeptMapper.xml" />
-        <option value="$PROJECT_DIR$/provider-dept-8002/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/provider-dept-8003/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/consumer_dept_80/src/main/java/com/gkts/consumer_dept_80/ConsumerDept80Application.java" />
-        <option value="$PROJECT_DIR$/consumer_dept_80/src/main/java/com/gkts/myRule/RandomRuleDiy.java" />
-        <option value="$PROJECT_DIR$/consumer_dept_80/src/main/java/com/gkts/myRule/MySelfRule.java" />
-        <option value="$PROJECT_DIR$/consumer-dept-feign/src/main/java/com/gkts/consumer_dept_feign/ConsumerDeptFeignApplication.java" />
         <option value="$PROJECT_DIR$/consumer_dept_80/src/main/java/com/gkts/consumer_dept_80/controller/DeptConsumerController.java" />
         <option value="$PROJECT_DIR$/consumer-dept-feign/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/consumer-dept-feign/src/main/java/com/gkts/consumerdept_feign/controller/DeptController.java" />
@@ -226,7 +230,6 @@
         <option value="$PROJECT_DIR$/consumer_dept_feign/src/main/java/com/gkts/consumer_dept_feign/ConsumerDeptFeignApplication.java" />
         <option value="$PROJECT_DIR$/consumer-hystrix-dashboard/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/consumer-hystrix-dashboard/src/main/java/com/gkts/consumer_hystrix_dashboard/ConsumerHystrixDashboardApplication.java" />
-        <option value="$PROJECT_DIR$/provider-dept-8001/pom.xml" />
         <option value="$PROJECT_DIR$/provider-dept-8002/pom.xml" />
         <option value="$PROJECT_DIR$/provider-dept-8003/pom.xml" />
         <option value="$PROJECT_DIR$/provider-dept-hystrix-8001/pom.xml" />
@@ -237,13 +240,25 @@
         <option value="$PROJECT_DIR$/zuul-gateway-9527/src/main/java/com/gkts/zuul_gateway_9527/ZuulGateway9527Application.java" />
         <option value="$PROJECT_DIR$/zuul-gateway-9527/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/zuul-gateway-9527/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-config/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-config/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-config/src/main/java/com/gkts/cloud_config/CloudConfigApplication.java" />
         <option value="$PROJECT_DIR$/cloud-config-client/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/cloud-config-client/src/main/java/com/gkts/cloud_config_client/controller/ConfigClintContrller.java" />
         <option value="$PROJECT_DIR$/cloud-config-client/src/main/java/com/gkts/cloud_config_client/CloudConfigClientApplication.java" />
         <option value="$PROJECT_DIR$/cloud-config-client/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/config-eureka-client-7001/pom.xml" />
+        <option value="$PROJECT_DIR$/config-eureka-client-7001/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/config-eureka-client-7001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-config/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-config/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-config/src/main/java/com/gkts/cloud_config/CloudConfigApplication.java" />
+        <option value="$PROJECT_DIR$/provider-dept-8001/pom.xml" />
+        <option value="$PROJECT_DIR$/config-eureka-client-7001/src/main/java/com/gkts/config_eureka_client_7001/ConfigEurekaClient7001Application.java" />
+        <option value="$PROJECT_DIR$/config-dept-client-8001/pom.xml" />
+        <option value="$PROJECT_DIR$/config-dept-client-8001/src/main/java/com/gkts/config_dept_client_8001/ConfigDeptClient8001Application.java" />
+        <option value="$PROJECT_DIR$/config-dept-client-8001/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/config-dept-client-8001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/config-dept-client-8001/src/main/java/com/gkts/config_dept_client_8001/controller/DeptController.java" />
+        <option value="$PROJECT_DIR$/config-dept-client-8001/src/main/java/com/gkts/config_dept_client_8001/serviceImple/DeptServiceImpl.java" />
+        <option value="$PROJECT_DIR$/config-dept-client-8001/src/main/resources/mybatis/mapper/DeptMapper.xml" />
       </list>
     </option>
   </component>
@@ -259,6 +274,15 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cloud-config" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cloud-config" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="zuul-gateway-9527" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
@@ -271,10 +295,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="768" />
-    <option name="y" value="61" />
-    <option name="width" value="1143" />
-    <option name="height" value="971" />
+    <option name="x" value="456" />
+    <option name="y" value="14" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -282,15 +306,160 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="NBKnowledgePane" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="NBKnowledgePane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config-dept-client-8001" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config-dept-client-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config-dept-client-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config-dept-client-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config-dept-client-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="config_dept_client_8001" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config-dept-client-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="config_dept_client_8001" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config-dept-client-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="config_dept_client_8001" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config-dept-client-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="config_dept_client_8001" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config-dept-client-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="config_dept_client_8001" type="462c0819:PsiDirectoryNode" />
+              <item name="serviceImple" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config-dept-client-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config-dept-client-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config-dept-client-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="provider-dept-8001" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="provider-dept-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="provider-dept-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="provider-dept-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="provider-dept-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="provider_dept_8001" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lymcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lymcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="provider-dept-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -314,7 +483,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="F:/LymProjects/ipcamera" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/config-dept-client-8001/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -324,8 +493,12 @@
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\LYMStudy\springcloud\lymcloud\eureka_7002\src\main\java\com\gkts\eureka_7002" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\LYMStudy\springcloud\lymcloud\config-dept-client-8001\src\main\resources" />
+      <recent name="F:\LYMStudy\springcloud\lymcloud\config-dept-client-8001\src\main\java\com\gkts\config_dept_client_8001" />
+      <recent name="F:\LYMStudy\springcloud\lymcloud" />
+      <recent name="F:\LYMStudy\springcloud\lymcloud\provider-dept-hystrix-8001\src\main\resources" />
+      <recent name="F:\LYMStudy\springcloud\lymcloud\provider-dept-hystrix-8001\src\main\java\com\gkts\provider_dept_hystrix_8001" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.gkts.consumer_dept_feign.controller" />
@@ -334,12 +507,8 @@
       <recent name="com.gkts.consumer_dept_80.controller" />
       <recent name="com.gkts.consumer_dept_80.configBeans" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\LYMStudy\springcloud\lymcloud\provider-dept-hystrix-8001\src\main\resources" />
-      <recent name="F:\LYMStudy\springcloud\lymcloud\provider-dept-hystrix-8001\src\main\java\com\gkts\provider_dept_hystrix_8001" />
-      <recent name="F:\LYMStudy\springcloud\lymcloud\provider-dept-8003\src\main\resources" />
-      <recent name="F:\LYMStudy\springcloud\lymcloud\provider-dept-8003\src\main\java\com\gkts\provider_dept_8003" />
-      <recent name="F:\LYMStudy\springcloud\lymcloud\provider-dept-8002\src\main\java\com\gkts\provider_dept_8002" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\LYMStudy\springcloud\lymcloud\eureka_7002\src\main\java\com\gkts\eureka_7002" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -360,7 +529,7 @@
     </option>
     <option name="contentProportion" value="0.24512987" />
   </component>
-  <component name="RunManager" selected="Spring Boot.CloudConfigClientApplication">
+  <component name="RunManager" selected="Spring Boot.ConfigDeptClient8001Application">
     <configuration name="CloudConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-config" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.gkts.cloud_config.CloudConfigApplication" />
@@ -371,6 +540,20 @@
     <configuration name="CloudConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-config-client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.gkts.cloud_config_client.CloudConfigClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigDeptClient8001Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-dept-client-8001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gkts.config_dept_client_8001.ConfigDeptClient8001Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigEurekaClient7001Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-eureka-client-7001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gkts.config_eureka_client_7001.ConfigEurekaClient7001Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -420,7 +603,8 @@
       <workItem from="1561942528875" duration="35969000" />
       <workItem from="1562057469009" duration="7698000" />
       <workItem from="1562551395493" duration="595000" />
-      <workItem from="1562554260464" duration="24034000" />
+      <workItem from="1562554260464" duration="24772000" />
+      <workItem from="1562892928621" duration="7660000" />
     </task>
     <task id="LOCAL-00001" summary="初始提交">
       <created>1561705182853</created>
@@ -520,7 +704,21 @@
       <option name="project" value="LOCAL" />
       <updated>1562826741792</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="实现分布式配置中心的客户端和服务端，测试通过">
+      <created>1562835847268</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1562835847268</updated>
+    </task>
+    <task id="LOCAL-00016" summary="添加本机路径下的hosts文件修改内容">
+      <created>1562835948350</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1562835948350</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -532,12 +730,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95892000" />
+    <option name="totallyTimeSpent" value="104290000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19829424" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17324094" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -559,7 +758,7 @@
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32936078" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Run Dashboard" order="14" weight="0.36403033" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="14" visible="true" weight="0.67713976" />
       <window_info anchor="bottom" id="Version Control" order="15" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -589,139 +788,11 @@
     <MESSAGE value="实现hystrix服务熔断，feign+hystrix实现服务降级" />
     <MESSAGE value="实现服务监控hystrixDashboard" />
     <MESSAGE value="实现路由网关zuul" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现路由网关zuul" />
+    <MESSAGE value="实现分布式配置中心的客户端和服务端，测试通过" />
+    <MESSAGE value="添加本机路径下的hosts文件修改内容" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加本机路径下的hosts文件修改内容" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/consumer_dept_feign/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer_dept_feign/src/main/java/com/gkts/consumer_dept_feign/ConsumerDeptFeignApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider-dept-8001/src/main/java/com/gkts/provider_dept_8001/controller/DeptController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer_dept_feign/src/main/java/com/gkts/consumer_dept_feign/controller/DeptConsumerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public-api/src/main/java/com/gkts/lymcloud/service/DeptClientService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="69" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer_dept_80/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="71" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer_dept_feign/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="33" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public-api/src/main/java/com/gkts/lymcloud/serviceImpl/DeptClientServiceFallbackFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider-dept-8002/src/main/java/com/gkts/provider_dept_8002/ProviderDept8002Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider-dept-8001/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="55" column="57" selection-start-line="55" selection-start-column="57" selection-end-line="55" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider-dept-8002/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer-hystrix-dashboard/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider-dept-hystrix-8001/src/main/java/com/gkts/provider_dept_hystrix_8001/service/DeptService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer-hystrix-dashboard/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer-hystrix-dashboard/src/main/java/com/gkts/consumer_hystrix_dashboard/ConsumerHystrixDashboardApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider-dept-hystrix-8001/src/main/java/com/gkts/provider_dept_hystrix_8001/controller/DeptController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/provider-dept-8003/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-527">
@@ -771,13 +842,6 @@
             <element signature="e#488#489#0" expanded="true" />
             <element signature="e#573#574#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="24" column="62" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
         </state>
       </provider>
     </entry>
@@ -838,23 +902,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/provider-dept-8001/src/main/java/com/gkts/provider_dept_8001/ProviderDept8001Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider-dept-8001/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="28" column="23" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zuul-gateway-9527/src/main/java/com/gkts/zuul_gateway_9527/ZuulGateway9527Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -892,13 +939,14 @@
         <state relative-caret-position="-450" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config-client/src/main/resources/bootstrap.yml.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config/pom.xml">
+    <entry file="file://$PROJECT_DIR$/cloud-config-client/src/main/resources/bootstrap.yml.xml" />
+    <entry file="file://$PROJECT_DIR$/cloud-config-client/src/main/java/com/gkts/cloud_config_client/controller/ConfigClintContrller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+        <state relative-caret-position="625">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -909,39 +957,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config-client/src/main/java/com/gkts/cloud_config_client/controller/ConfigClintContrller.java">
+    <entry file="file://$PROJECT_DIR$/cloud-config-client/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="300">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config/src/main/java/com/gkts/cloud_config/CloudConfigApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/com/sun/jersey/contribs/jersey-apache-client4/1.19.1/jersey-apache-client4-1.19.1-sources.jar!/com/sun/jersey/client/apache4/ApacheHttpClient4Handler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="186" column="18" selection-start-line="186" selection-start-column="18" selection-end-line="186" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka_7001/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-config-client/src/main/java/com/gkts/cloud_config_client/CloudConfigClientApplication.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -950,17 +971,194 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config-client/src/main/resources/application.yml">
+    <entry file="jar://$USER_HOME$/.m2/repository/com/sun/jersey/contribs/jersey-apache-client4/1.19.1/jersey-apache-client4-1.19.1-sources.jar!/com/sun/jersey/client/apache4/ApacheHttpClient4Handler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        <state relative-caret-position="2500">
+          <caret line="186" column="18" selection-start-line="186" selection-start-column="18" selection-end-line="186" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka_7001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-227">
+          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka_7002/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-config-client/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka_7001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-eureka-client-7001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-eureka-client-7001/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="647">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config/src/main/java/com/gkts/cloud_config/CloudConfigApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="24" column="62" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-eureka-client-7001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-eureka-client-7001/src/main/java/com/gkts/config_eureka_client_7001/ConfigEurekaClient7001Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-dept-client-8001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1648">
+          <caret line="79" column="21" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-dept-8001/src/main/java/com/gkts/provider_dept_8001/ProviderDept8001Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-dept-8001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-dept-8001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-dept-client-8001/src/main/java/com/gkts/config_dept_client_8001/controller/DeptController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-dept-client-8001/src/main/java/com/gkts/config_dept_client_8001/serviceImple/DeptServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-dept-client-8001/src/main/java/com/gkts/config_dept_client_8001/service/DeptService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-dept-client-8001/src/main/resources/mybatis/mapper/DeptMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-dept-client-8001/src/main/java/com/gkts/config_dept_client_8001/mapper/DeptMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-dept-client-8001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-dept-client-8001/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-dept-client-8001/src/main/java/com/gkts/config_dept_client_8001/ConfigDeptClient8001Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
         </state>
       </provider>
     </entry>
