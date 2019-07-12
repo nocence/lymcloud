@@ -8,6 +8,6 @@
 #### JDK：1.8
 #### 数据库：MySQL
 #### 数据库示例脚本：[cloudtest](https://github.com/nocence/lymcloud/blob/master/cloudtest.sql)
+### git配置路径：[lymcloud-config](https://github.com/nocence/lymcloud-config.git)
 ### 搭建进度
 - [x] 已全部完成
-    
